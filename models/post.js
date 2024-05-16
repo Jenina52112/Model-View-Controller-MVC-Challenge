@@ -25,4 +25,6 @@ const Post = db.define('Post', {
 // For example, if a post belongs to a user:
 // Post.belongsTo(User);
 
-module.exports = Post;
+module.exports = function(sequelize, DataTypes) {
+  return Post;
+};

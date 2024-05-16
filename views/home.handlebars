@@ -1,0 +1,35 @@
+<!-- views/home.handlebars -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{pageTitle}}</title>
+  <!-- Include CSS stylesheets -->
+</head>
+<body>
+  <!-- Include the navbar partial -->
+  {{> navbar}}
+
+  <!-- Main content of the home page -->
+  <div class="container">
+    <h1>Welcome to MyApp!</h1>
+    <p>MyApp is a fantastic web application that...</p>
+    <div class="features">
+      <div class="feature">
+        <h2>Feature 1</h2>
+        <p>Description of feature 1...</p>
+      </div>
+      <div class="feature">
+        <h2>Feature 2</h2>
+        <p>Description of feature 2...</p>
+      </div>
+      <!-- Add more featured sections as needed -->
+    </div>
+    <a href="/about" class="btn">Learn More</a>
+  </div>
+
+  <!-- Include JavaScript files -->
+</body>
+</html>
